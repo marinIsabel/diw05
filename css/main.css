@@ -1,0 +1,129 @@
+* {
+    font-family: 'Nunito', Verdana, sans-serif;
+}
+
+body.login {
+    background-color: #34889c;
+    background: linear-gradient(to right, #34889c, #4678c8);
+}
+h2{
+    color: #f8f9fc;
+}
+
+
+.bg-login {
+    background-image: url('../img/login.svg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#main-page {
+    background-color: #f8f9fc;
+}
+.callout-primary {
+     border-left-width: 6px;
+     border-left-color: #428bca;
+}
+.callout-success {
+    border-left-width: 6px;
+    border-left-color: #1cc88a;
+}
+.callout-info {
+    border-left-width: 6px;
+    border-left-color: #36b9cc;;
+
+}
+
+/* clases principal.html*/
+
+section.blanco{
+    background-color: white;
+}
+.contenedor{
+    height: 100vh;
+    align-items: center;
+    text-align: center;
+    margin: 0%;
+
+}
+
+.navegacion{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.titulo{
+    color: coral !important;
+    font-weight: 800;
+  
+}
+
+i{
+    padding-right: 3px;
+}
+.cabecera{
+    background-color: white;
+    height: 100px;
+}
+
+.menu{ /* menu mobile */
+    background-color: #7d00e4;
+    min-width: 200px;
+    height: 100px; /* Altura nav mobile*/
+}
+
+.menu2{ /* menu mobile*/
+    background-color:#7d00e4;
+    min-width: 200px;
+    height: 400px;
+   
+}
+.tarjeta{
+   
+    padding: 5%;
+    width: 18rem;
+}
+.centrador{
+   /* position: relative;*/
+    text-align: center;
+    
+}
+
+
+.imagen{
+    
+    width: 100px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.precio{
+    color: coral;
+    font-size: 1.7rem;
+    font-weight: 800;
+}
+
+.cuerpo {
+
+position: relative;
+ min-width: 510px;
+}
+
+
+.elemento{
+   /* background-color: aliceblue;*/
+    min-width: 300px; 
+    padding: 2%; 
+    height: auto; /*alto*/
+}
+
+.elementotarjeta{
+    /* background-color: aliceblue;*/
+     min-width: 300px; /* tamano minimo*/
+     height: 100px; /*alto*/
+ }
